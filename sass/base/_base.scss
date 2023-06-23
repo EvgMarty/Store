@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+   font-family: 'Ubuntu', sans-serif;
+   font-family: 'DM Sans', sans-serif;
+   color: #00112C;
+   position: relative;
+}
+
+.container{
+   padding: 15px;
+   max-width: 1296px;
+   margin: 0 auto;
+}
+
+.hidden{
+   display: none;
+}
+
+.navbar-img{
+   pointer-events: none;
+}
+

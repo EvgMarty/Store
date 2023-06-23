@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Shop</title>
+   <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+   <header class="header">
+      <div  class="container">
+         <nav class="nav">
+            <img class="nav_logo" src="./img/logo/Logo.svg" alt="">
+            <form class="search-form"> 
+               <input class="search-form__txt" type="text" name="text" class="search" placeholder="Specify the thing..." required>
+               <button class="search-form__btn">
+                  <img class="search-form__img" src="./img/util/search.svg" alt="search" width="24px">
+               </button>
+            </form>
+            <ul class="navbar">
+               <li class="navbar__item" >
+                  <a href="#" data-active="menu-bar">
+                     <img class="navbar-img" src="./img/navbar/menu-bar.png"  width="40px" alt="">
+                  </a>
+               </li>
+               <li class="navbar__item">
+                  <a href="#">
+                     <img class="navbar-img" src="./img/navbar/heart.png" width="30px" alt="">
+                  </a>
+               </li>
+               <li class="navbar__item">
+                  <a href="#">
+                     <img class="navbar-img" src="./img/navbar/shopping-bag.png" width="45px" alt="">
+                  </a>
+               </li>
+               <li class="navbar__item">
+                  <a href="#">
+                     <img class="navbar-img" src="./img/navbar/home.png" width="30px" alt="">
+                  </a>
+               </li>
+               <li class="navbar__item">
+                  <a href="#">
+                     <img class="navbar-img" src="./img/navbar/menu.png" width="30px" alt="">
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+
+      <div class="menu " id="menu-bar">
+         <div class="menu__close"></div>
+         <div class="menu__top">
+            <div class="menu__title menu__title-active"><a href="#">Home</a></div>
+            <div  class="menu__title"><a   href="#">Categories</a></div>
+            <div  class="menu__title" data-name="accordeon-title">
+               <div  class="menu__title-top">
+                  <a  href="#">Men's</a>
+                  <div data-plus-min class="plus"></div>
+               </div>
+               <div class="menu__title-info hidden"> 
+                  <a  href="#">Shirts</a>
+                  <a  href="#">Jeans</a>
+                  <a  href="#">Shoes</a>
+               </div>
+            </div>
+            <div  class="menu__title" data-name="accordeon-title">
+               <div  class="menu__title-top">
+                  <a  href="#">Women's</a>
+                  <div  data-plus-min class="plus"></div>
+               </div>
+               <div class="menu__title-info hidden"> 
+                  <a  href="#">Dresses</a>
+                  <a  href="#">Skirt</a>
+                  <a  href="#">Heels</a>
+               </div>
+            </div>
+            <div  class="menu__title" data-name="accordeon-title">
+               <div  class="menu__title-top">
+                  <a  href="#">Perfume</a>
+                  <div  data-plus-min class="plus"></div>
+               </div>
+               <div class="menu__title-info hidden"> 
+                  <a  href="#">Versace</a>
+                  <a  href="#">Armani</a>
+                  <a  href="#">Chanel</a>
+                  <a  href="#">Armand</a>
+               </div>
+            </div>
+            <div  class="menu__title"><a href="">Blods</a></div>
+            <div  class="menu__title"><a href="">Hot Ofers</a></div>
+         </div>
+
+         <div class="menu__bot">
+            <div  class="menu__title">Our social networks</div>
+            <ul class="menu__bot-social">
+               <li>
+                  <a href="https://www.instagram.com/">
+                     <img src="./img/social/instagram.png" width="30px" alt="inst">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.tiktok.com/uk-UA/">
+                     <img src="./img/social/tik-tok.png" width="30px" alt="tiktok">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://uk-ua.facebook.com/">
+                     <img src="./img/social/facebook.png" width="30px" alt="fb">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.linkedin.com/">
+                     <img  src="./img/social/linkedin.png" width="30px" alt="linkedin">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/">
+                     <img src="./img/social/social.png" width="30px" alt="youtube">
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="container">
+         <div class="slider">
+            <div class="slider-line">
+               <div class="slider-img">
+                  <div class="slider-img__wrap">
+                     <h3>Trending items</h3>
+                     <h1>Fashionable women's clothing at a discount</h1>
+                     <button class="button">Buy Now</button>
+                  </div>
+               </div>
+               <div class="slider-img">
+                  <div class="slider-img__wrap">
+                     <h3>Trending items</h3>
+                     <h1>Fashionable women's clothing at a discount</h1>
+                     <button class="button">Buy Now</button>
+                  </div>
+               </div>
+               <div class="slider-img">
+                  <div class="slider-img__wrap">
+                     <h3>Trending items</h3>
+                     <h1>Fashionable women's clothing at a discount</h1>
+                     <button class="button">Buy Now</button>
+                  </div>
+               </div>
+            </div>
+            <button class="slide-btn slider-prev"></button>
+            <button class="slide-btn slider-next"></button>
+         </div>
+      </div>
+
+      <div class="fade-block hidden"></div>
+   </header>
+
+   <main>
+      <div class="container">
+         <div class="main__info">
+            <div class="main__info-line">
+               <a href="#" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/hot-sale.png" alt="">
+                  <p>Discounts</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/tshirt.png" alt="">
+                  <p>T-shirts</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/pants.png" alt="">
+                  <p>Pants</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/dress.png" alt="">
+                  <p>Dresses</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/eyeglasses.png" alt="">
+                  <p>Accessories</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/children.png" alt="">
+                  <p>Children's</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/school-bag.png" alt="">
+                  <p>Backpacks</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/notebook.png" alt="">
+                  <p>Concilaria</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/dumbbell.png" alt="">
+                  <p>Sports</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/perfume.png" alt="">
+                  <p>Perfume</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/car.png" alt="">
+                  <p>For the Car</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/cosmetics.png" alt="">
+                  <p>Cosmetics</p>
+               </a>
+               <a href="" class="main__info-item">
+                  <img class="main__info-img" src="./img/tab/pets.png" alt="">
+                  <p>Pets</p>
+               </a>
+            </div>
+         </div>
+      </div>
+   </main>
+
+
+   <script src="./js/main.js"></script>
+</body>
+</html>

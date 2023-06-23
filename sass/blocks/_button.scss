@@ -1,0 +1,20 @@
+.button{
+   position: relative;
+   font-size: 20px;
+   font-family:'DM Sans', sans-serif;
+
+   padding: 10px 24px;
+   border-radius: 6px;
+   border: 2px solid  #0ABF53;
+   background:  #33333366;
+   color:   #0ABF53;
+
+   &:hover{
+      background:  #0ABF53;
+      color: #fff;
+   }
+
+   &:active{
+      top: 1px;
+   }
+}
