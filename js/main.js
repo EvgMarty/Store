@@ -19,7 +19,8 @@ function windowSize (){
          const activeBar = event.target.dataset.active;
          const barBox = document.querySelector('#' + activeBar);
          const close = barBox.querySelector('.menu__close');
-         
+
+
          //открыть 
          barBox.classList.add('menu--active')
          fadeBlock.classList.remove('hidden')
@@ -47,8 +48,7 @@ const acardeonTitle = document.querySelectorAll('[data-name="accordeon-title"]')
 acardeonTitle.forEach(item =>{
 
    item.addEventListener('click', ()=>{
-      
-      const acardeonBox = item.querySelector('.menu__title-info');
+      const acardeonBox = item.querySelector('[data-name="accordeon-info"]');
       const plusMin = item.querySelector('[data-plus-min]');
 
       acardeonBox.classList.toggle('hidden')

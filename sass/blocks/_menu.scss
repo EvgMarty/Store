@@ -26,9 +26,9 @@
        position: absolute;
        top: 20px;
        right: 20px;
-       width: 30px;
-       height: 30px;
-       background-image: url(../../img/util/close.png);
+       width: 20px;
+       height: 20px;
+       background-image: url(../img/util/close.png);
        background-size: cover;
        background-position: center;
        background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .menu--active{
-   position: absolute;
+   position: fixed;
    left: 0;
    top: 0;
 }
@@ -85,7 +85,8 @@
    flex-direction: column;
 
 
-   a{
+   span{
+      cursor: pointer;
       font-weight: 500;
       font-size: 16px;
       line-height: 21px;
@@ -95,11 +96,11 @@
    
 
 
-   a:hover {
+   span:hover {
       color: #626f77 ;
    }
 
-   &-active a{
+   &-active span{
       color: #0ABF53;
    }
 
@@ -116,8 +117,8 @@
 }
 
 .plus{
-   height: 15px;
-   width: 15px;
+   height:10px;
+   width: 10px;
    background-image: url(../img/acardeon/plus.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -129,8 +130,8 @@
 }
 
 .minus{
-   height: 15px;
-   width: 15px;
+   height: 10px;
+   width: 10px;
    background-image: url(../img/acardeon/minus.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -169,6 +170,7 @@
       box-shadow: none;
       top: 10px;
       row-gap: 5px;
+      background: #f5f5f5;
    }
 
    &.hidden{
