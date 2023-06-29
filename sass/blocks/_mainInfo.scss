@@ -34,4 +34,12 @@
       background: #f5f5f5;
    } 
    
+   img{
+      pointer-events: none;
+   }
+}
+
+.main__info-item--active{
+   border-top: 2px solid #0ABF53;
+   background: #f5f5f5;
 }

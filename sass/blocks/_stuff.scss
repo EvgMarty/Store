@@ -14,7 +14,7 @@
 
    @media (max-width: 820px){
       column-gap: 20px;
-      // justify-content: center;
+      justify-content: center;
    }
 
    @media (max-width: 500px){
@@ -24,6 +24,9 @@
 
 
    padding: 20px;
+   &.hidden{
+      display: none;
+   }
 }
 
 

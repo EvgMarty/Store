@@ -51,7 +51,7 @@ acardeonTitle.forEach(item =>{
       const acardeonBox = item.querySelector('[data-name="accordeon-info"]');
       const plusMin = item.querySelector('[data-plus-min]');
 
-      acardeonBox.classList.toggle('hidden')
+      acardeonBox.classList.toggle('hidden');
 
       if(acardeonBox.classList.contains('hidden')){
          plusMin.classList.add('plus')
@@ -63,57 +63,24 @@ acardeonTitle.forEach(item =>{
 
    })
 
+ 
+   item.addEventListener('mouseenter', ()=>{
+
+      if(item.closest('.menu')){
+         const acardeonBox = item.querySelector('[data-name="accordeon-info"]');
+
+         acardeonBox.classList.remove('hidden');
+
+         acardeonBox.addEventListener('mouseleave', (event)=>{
+            acardeonBox.classList.add('hidden');
+         })
+      }
+      
+   })
+
+
 })
 
-
-// //Слайдер
-// const slider = document.querySelector('.slider');
-// const sliderBlock = document.querySelector('.slider-block');
-
-// slider.addEventListener('touchstart',handleTouchstart,false)
-// slider.addEventListener('touchmove',handleTouchmove,false)
-
-
-// let x1 = null;
-// let y1 = null;
-
-// function handleTouchstart (event){
-
-//    const firstTouch = event.touches[0];
-   
-//    x1 = firstTouch.clientX;
-//    y1 = firstTouch.clientY;
-
-
-// }
-
-
-// function handleTouchmove (event){
-
-//    if(!x1 || !y1 ){
-//       return false
-//    }
-
-   
-//    let x2 = event.touches[0].clientX;
-//    let y2 = event.touches[0].clientY;
-  
-//    let xDiff = x2-x1;
-//    let yDiff = y2-y1;
-
-//    if(Math.abs(xDiff) > Math.abs(yDiff) ){
-//       //r-l
-//       xDiff>0? console.log('right'): console.log('left');}
-//    else{
-//       //t-b
-//       yDiff>0? console.log('bot'): console.log('top');
-//    }
-      
-   
-
-//    x1 = null;
-//    y1 = null;
-// }
 
 //Слайдер
 
@@ -146,3 +113,69 @@ btnNext.addEventListener('click', ()=>{
 
 })
 
+
+//Табы
+//Нашли таби и контент к ним
+const tab = document.querySelectorAll('[data-tab]');
+const tabContent = document.querySelectorAll('[data-tab-content]');
+
+
+//Перебираем все табы
+tab.forEach((item)=>{
+   //Отследили нажатие по одному из табов 
+   item.addEventListener('click',(event)=>{
+      //Находим контейнер которй привязали к табу по ID
+      const tabId = event.currentTarget.dataset.tab;
+      const tabContentBox = document.querySelector('#'+ tabId );
+
+      //Убираем у всех табов активный класс 
+      tab.forEach((item)=>{
+         item.classList.remove('main__info-item--active');
+      })
+      //Добавляем активный клас тому табу по которому кликнули
+      item.classList.add('main__info-item--active');
+
+
+      //Скрыть весь Таб Контент 
+      tabContent.forEach((item)=>{
+         item.classList.add('hidden')
+      })
+
+      //Открыть Таб Контен который мы нашли по ID
+      tabContentBox.classList.remove('hidden');
+   })
+})
+
+
+
+//Кнопки Добавления нрави и в корзину
+const btnLike = document.querySelectorAll('.btn-like')
+const btnCart = document.querySelectorAll('.btn-cart')
+
+//Перебираем колекцию 
+btnLike.forEach((item)=>{
+
+   //При нажатии на елемент из колекции 
+   item.addEventListener('click',(event)=>{
+
+      //Определяем на какой елемент было нажатие
+      const likeActive = event.target;
+      //Даем клас актив 
+      likeActive.classList.toggle('btn-like--active')
+
+   })
+})
+
+//Перебираем колекцию 
+btnCart.forEach((item)=>{
+
+   //При нажатии на елемент из колекции 
+   item.addEventListener('click', (event)=>{
+
+      //Определяем на какой елемент было нажатие
+      const cartActive = event.target;
+      //Даем клас актив 
+      cartActive.classList.toggle('btn-cart--active');
+
+   })
+})

@@ -64,7 +64,8 @@
 .category__title-top {
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: flex-start;
+column-gap: 10px;
 align-items: center;
 
    .plus {
@@ -81,6 +82,7 @@ align-items: center;
    flex-direction: column;
    row-gap: 5px;
    padding: 10px;
+   padding-left: 40px;
 
    &.hidden{
       display: none;
@@ -90,10 +92,10 @@ align-items: center;
 
 
 
-.category-minus{
-   height: 10px;
-   width: 10px;
-   background-image: url(../img/acardeon/minus.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-}
+// .category-minus{
+//    height: 10px;
+//    width: 10px;
+//    background-image: url(../img/acardeon/minus.png);
+//    background-repeat: no-repeat;
+//    background-size: cover;
+// }

@@ -1,0 +1,21 @@
+.btn-cart{
+   position: relative;
+   padding: 2px;
+   width: 33px;
+   height: 33px;
+   background-image: url(../img/btn/btn-cart-.png);
+   background-size: cover;
+
+   &:hover{
+      background-image: url(../img/btn/btn-cart+.png);
+   }
+
+   &:active{
+      top: 1px;
+   }
+
+   &.btn-cart--active{
+      background-image: url(../img/btn/btn-cart+.png);
+   }
+
+}
