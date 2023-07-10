@@ -19,20 +19,6 @@ acardeonTitle.forEach(item =>{
 
    })
 
- 
-   item.addEventListener('mouseenter', ()=>{
-
-      if(item.closest('.menu')){
-         const acardeonBox = item.querySelector('[data-name="accordeon-info"]');
-
-         acardeonBox.classList.remove('hidden');
-
-         acardeonBox.addEventListener('mouseleave', (event)=>{
-            acardeonBox.classList.add('hidden');
-         })
-      }
-      
-   })
 
 
 })

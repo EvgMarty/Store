@@ -1,12 +1,7 @@
 //Меню и категории актив
 const dataActive = document.querySelectorAll('[data-active]');
 const fadeBlock = document.querySelector('.fade-block');
-windowSize();
-//Функция проверяет розширение
-function windowSize (){
 
-   //если больше 814px віходим из функции если меньше продолжаем работать 
-   if (document.documentElement.clientWidth > 814) return;
 
   
    //Перебор масива с елементами 
@@ -37,5 +32,5 @@ function windowSize (){
 
       })
    });
-};
+
 

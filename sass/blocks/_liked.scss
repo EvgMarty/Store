@@ -1,0 +1,37 @@
+.liked{
+   position: absolute;
+   height: 100vh;
+   width: 700px;
+   left: -1000px;
+   top: 0;
+
+   padding: 20px;
+
+   background: #f5f5f5;
+   transition: all 0.3s ease-in;
+   z-index: 20;
+
+   @media (max-width: 820px){
+      height: 100vh;
+      width: 300px;
+   }
+
+   @media (max-width: 450px){
+      width: 100%;
+      left: -500px;
+   }
+
+   .menu__close{
+      content: '';
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/util/close.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+   }
+}
+
