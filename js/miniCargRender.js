@@ -1925,11 +1925,11 @@ dataMiniCard.forEach((item)=>{
 
    //Делаем перебок нашего масива с товаром
    miniCardProduct.forEach((item)=>{
-      //Получаем айди товара 
-      const miniCardProductId =  item.category;
+      //Получаем категорию  товара 
+      const miniCardProductСategory =  item.category;
 
-      // Если датасет равен айди масива 
-      if(datasetSubject ===  miniCardProductId){
+      // Если датасет равен категории масива 
+      if(datasetSubject ===  miniCardProductСategory){
         
          //В шаблоную строку подставляем данные с масива
          const card = `<div class="product-card__mini">

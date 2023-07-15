@@ -10,7 +10,7 @@
 
    background-color: #f5f5f5;
    padding: 20px;
-   z-index: 10;
+   z-index: 5;
 
    transition: all 0.3s ease-in;
 
@@ -34,6 +34,7 @@
 }
 
 .menu--active{
+   z-index: 15;
    position: fixed;
    left: 0;
    top: 0;

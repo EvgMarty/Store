@@ -4,6 +4,7 @@ const tab = document.querySelectorAll('[data-tab]');
 const tabContent = document.querySelectorAll('[data-tab-content]');
 
 
+
 //Перебираем все табы
 tab.forEach((item)=>{
    //Отследили нажатие по одному из табов 

@@ -5,6 +5,10 @@ body{
    font-family: 'DM Sans', sans-serif;
    color: #00112C;
    position: relative;
+
+   &.overflow{
+      overflow:hidden;
+   } 
 }
 
 .container{

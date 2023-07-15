@@ -14,7 +14,7 @@
          <nav class="nav">
             <img class="nav_logo" src="./img/logo/Logo.svg" alt="">
             <form class="search-form"> 
-               <input class="search-form__txt" type="text" name="text" class="search" placeholder="Specify the thing..." required>
+               <input class="search-form__txt"  type="text" name="text"  placeholder="Specify the thing..." required>
                <button class="search-form__btn">
                   <img class="search-form__img" src="./img/util/search.svg" alt="search" width="24px">
                </button>
@@ -91,7 +91,7 @@
                </div>
             </div>
             <div  class="menu__title"><span>Blods</a></div>
-            <div  class="menu__title"><span>Hot Ofers</a></div>
+            <div  class="menu__title "><span class="hot " data-modal="hot-ofers">Hot Ofers</a></div>
          </div>
 
          <div class="menu__bot">
@@ -136,6 +136,19 @@
       <div class="liked" id="menu-liked">
          <div class="menu__close"></div>
          <div class="category__title category__title-active"><span>Liked</span></div>
+      </div>
+
+       <!--Горячее предложение  -->
+      <div class="hot-ofers hidden" id="hot-ofers">
+         <div class="menu__close"></div>
+         <div class="category__title category__title-active"><span>Hot Ofers</span></div>
+      </div>
+
+      <!--Поиск -->
+      <div class="search hidden">
+         <div class="menu__close"></div>
+         <div class="category__title category__title-active"><span>Search</span></div>
+         <h4 class="no__product">Item not found .....</h4>
       </div>
 
 
@@ -741,11 +754,13 @@
    </section>
 
    
+   <script src="./js/miniCargRender.js"></script>
    <script src="./js/main.js"></script>
+   <script src="./js/modal.js"></script>
    <script src="./js/tab.js"></script>
    <script src="./js/acordeon.js"></script>
    <script src="./js/slider.js"></script>
+   <script src="./js/search.js"></script>
    <script src="./js/basketLike.js"></script>
-   <script src="./js/miniCargRender.js"></script>
 </body>
 </html>
