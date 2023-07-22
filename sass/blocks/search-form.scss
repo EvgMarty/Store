@@ -1,0 +1,23 @@
+.search-form {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+
+   background: #FFFFFF;
+   max-width: 590px;
+   box-shadow: 0px 4px 15px rgba(19, 19, 19, 0.06);
+   border-radius: 6px;
+
+   @media (max-width: 1036px){
+      display: none;
+   }
+}
+.search-form__txt {
+   color: #00112C;
+   padding: 10px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   width: 560px;
+}

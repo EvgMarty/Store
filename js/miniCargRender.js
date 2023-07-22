@@ -1,6 +1,10 @@
+// счетчик айди 
+let cardCounter = 1;
+
 const miniCardProduct = [
    // ==========  category: 'new-discounts',
    {
+      id: cardCounter++,
       category: 'new-discounts',
       name: 'Сандалі',
       brand: 'DeeZee',
@@ -9,6 +13,7 @@ const miniCardProduct = [
       oldPrice: 560,
    },
    {
+      id: cardCounter++,
       category: 'new-discounts',
       name: 'В єтнамки',
       brand: 'Colin s ',
@@ -17,6 +22,7 @@ const miniCardProduct = [
       oldPrice: 349,
    },
    {
+      id: cardCounter++,
       category: 'new-discounts',
       name: 'Срібна каблучка',
       brand: 'Golden Silver',
@@ -25,6 +31,7 @@ const miniCardProduct = [
       oldPrice: 2782,
    },
    {
+      id: cardCounter++,
       category: 'new-discounts',
       name: 'Шльопанці',
       brand: 'No Brand',
@@ -33,6 +40,7 @@ const miniCardProduct = [
       oldPrice: 488,
    },
    {
+      id: cardCounter++,
       category: 'new-discounts',
       name: 'Футболка',
       brand: 'No Brand',
@@ -41,6 +49,7 @@ const miniCardProduct = [
       oldPrice: 380,
    },
    {
+      id: cardCounter++,
       category: 'new-discounts',
       name: 'Набір шкарпеток',
       brand: 'Rovix',
@@ -50,6 +59,7 @@ const miniCardProduct = [
    },
    //  =============    category: 'top-discount',
    {
+      id: cardCounter++,
       category: 'top-discount',
       name: 'Кросівки',
       brand: 'Bravi',
@@ -58,6 +68,7 @@ const miniCardProduct = [
       oldPrice: 1510,
    },
    {
+      id: cardCounter++,
       category: 'top-discount',
       name: 'Кросівки',
       brand: 'Violeta',
@@ -66,6 +77,7 @@ const miniCardProduct = [
       oldPrice: 800,
    },
    {
+      id: cardCounter++,
       category: 'top-discount',
       name: 'Спідня білизна',
       brand: 'BASIC TRUNK',
@@ -74,6 +86,7 @@ const miniCardProduct = [
       oldPrice: 635,
    },
    {
+      id: cardCounter++,
       category: 'top-discount',
       name: 'Спідня білизна',
       brand: 'Men s Multi',
@@ -82,6 +95,7 @@ const miniCardProduct = [
       oldPrice: 488,
    },
    {
+      id: cardCounter++,
       category: 'top-discount',
       name: 'Черевики',
       brand: 'One Way',
@@ -90,6 +104,7 @@ const miniCardProduct = [
       oldPrice: 1999,
    },
    {
+      id: cardCounter++,
       category: 'top-discount',
       name: 'Трусики',
       brand: 'Victoria s Secret',
@@ -99,6 +114,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-discount',
    {
+      id: cardCounter++,
       category: 'popular-discount',
       name: 'Шорти',
       brand: 'Malta',
@@ -107,6 +123,7 @@ const miniCardProduct = [
       oldPrice: 199,
    },
    {
+      id: cardCounter++,
       category: 'popular-discount',
       name: 'Магніт',
       brand: 'No Brand',
@@ -115,6 +132,7 @@ const miniCardProduct = [
       oldPrice: 45,
    },
    {
+      id: cardCounter++,
       category: 'popular-discount',
       name: 'Віночок',
       brand: 'Esmara',
@@ -123,6 +141,7 @@ const miniCardProduct = [
       oldPrice: 135,
    },
    {
+      id: cardCounter++,
       category: 'popular-discount',
       name: 'Харчовий контейнер',
       brand: 'Violet House',
@@ -131,6 +150,7 @@ const miniCardProduct = [
       oldPrice: 105,
    },
    {
+      id: cardCounter++,
       category: 'popular-discount',
       name: 'Шкарпетки',
       brand: 'GoSocks',
@@ -139,6 +159,7 @@ const miniCardProduct = [
       oldPrice: 14,
    },
    {
+      id: cardCounter++,
       category: 'popular-discount',
       name: 'Мило туалетне',
       brand: 'No Brand',
@@ -148,6 +169,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-t-shirts',
    {
+      id: cardCounter++,
       category: 'new-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -156,6 +178,7 @@ const miniCardProduct = [
       oldPrice: 759,
    },
    {
+      id: cardCounter++,
       category: 'new-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -164,6 +187,7 @@ const miniCardProduct = [
       oldPrice: 759,    
    },
    {
+      id: cardCounter++,
       category: 'new-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -172,6 +196,7 @@ const miniCardProduct = [
       oldPrice: 759,    
    },
    {
+      id: cardCounter++,
       category: 'new-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -180,6 +205,7 @@ const miniCardProduct = [
       oldPrice: 759,    
    },
    {
+      id: cardCounter++,
       category: 'new-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -188,6 +214,7 @@ const miniCardProduct = [
       oldPrice: 759,    
    },
    {
+      id: cardCounter++,
       category: 'new-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -197,6 +224,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-t-shirts',
    {
+      id: cardCounter++,
       category: 'top-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -205,6 +233,7 @@ const miniCardProduct = [
       oldPrice: 821,
    },
    {
+      id: cardCounter++,
       category: 'top-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -213,6 +242,7 @@ const miniCardProduct = [
       oldPrice: 821,
    },
    {
+      id: cardCounter++,
       category: 'top-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -221,6 +251,7 @@ const miniCardProduct = [
       oldPrice: 821,
    },
    {
+      id: cardCounter++,
       category: 'top-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -229,6 +260,7 @@ const miniCardProduct = [
       oldPrice: 821,
    },
    {
+      id: cardCounter++,
       category: 'top-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -237,6 +269,7 @@ const miniCardProduct = [
       oldPrice: 821,
    },
    {
+      id: cardCounter++,
       category: 'top-t-shirts',
       name: 'Футболка',
       brand: 'Sol s',
@@ -246,6 +279,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-t-shirts',
    {
+      id: cardCounter++,
       category: 'popular-t-shirts',
       name: 'Футболка',
       brand: 'Barber',
@@ -254,6 +288,7 @@ const miniCardProduct = [
       oldPrice: 999,
    },
    {
+      id: cardCounter++,
       category: 'popular-t-shirts',
       name: 'Футболка',
       brand: 'Barber',
@@ -262,6 +297,7 @@ const miniCardProduct = [
       oldPrice: 999,   
    },
    {
+      id: cardCounter++,
       category: 'popular-t-shirts',
       name: 'Футболка',
       brand: 'Barber',
@@ -270,6 +306,7 @@ const miniCardProduct = [
       oldPrice: 999,   
    },
    {
+      id: cardCounter++,
       category: 'popular-t-shirts',
       name: 'Футболка',
       brand: 'Barber',
@@ -278,6 +315,7 @@ const miniCardProduct = [
       oldPrice: 999,   
    }, 
    {
+      id: cardCounter++,
       category: 'popular-t-shirts',
       name: 'Футболка',
       brand: 'Barber',
@@ -286,6 +324,7 @@ const miniCardProduct = [
       oldPrice: 999,   
    },
    {
+      id: cardCounter++,
       category: 'popular-t-shirts',
       name: 'Футболка',
       brand: 'Barber',
@@ -295,6 +334,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-pants',
    {
+      id: cardCounter++,
       category: 'new-pants',
       name: 'Шорти',
       brand: 'CLUB JU',
@@ -303,6 +343,7 @@ const miniCardProduct = [
       oldPrice: 550,
    },
    {
+      id: cardCounter++,
       category: 'new-pants',
       name: 'Шорти',
       brand: 'CLUB JU',
@@ -311,6 +352,7 @@ const miniCardProduct = [
       oldPrice: 550,
    },
    {
+      id: cardCounter++,
       category: 'new-pants',
       name: 'Шорти',
       brand: 'CLUB JU',
@@ -319,6 +361,7 @@ const miniCardProduct = [
       oldPrice: 550,
    },
    {
+      id: cardCounter++,
       category: 'new-pants',
       name: 'Шорти',
       brand: 'CLUB JU',
@@ -327,6 +370,7 @@ const miniCardProduct = [
       oldPrice: 550,
    },
    {
+      id: cardCounter++,
       category: 'new-pants',
       name: 'Шорти',
       brand: 'CLUB JU',
@@ -335,6 +379,7 @@ const miniCardProduct = [
       oldPrice: 550,
    },
    {
+      id: cardCounter++,
       category: 'new-pants',
       name: 'Шорти',
       brand: 'CLUB JU',
@@ -344,6 +389,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-pants',
    {
+      id: cardCounter++,
       category: 'top-pants',
       name: 'Шорти',
       brand: 'New Balance',
@@ -352,6 +398,7 @@ const miniCardProduct = [
       oldPrice: 2100,
    },
    {
+      id: cardCounter++,
       category: 'top-pants',
       name: 'Шорти',
       brand: 'New Balance',
@@ -360,6 +407,7 @@ const miniCardProduct = [
       oldPrice: 2100,
    },
    {
+      id: cardCounter++,
       category: 'top-pants',
       name: 'Шорти',
       brand: 'New Balance',
@@ -368,6 +416,7 @@ const miniCardProduct = [
       oldPrice: 2100,
    },
    {
+      id: cardCounter++,
       category: 'top-pants',
       name: 'Шорти',
       brand: 'New Balance',
@@ -376,6 +425,7 @@ const miniCardProduct = [
       oldPrice: 2100,
    },
    {
+      id: cardCounter++,
       category: 'top-pants',
       name: 'Шорти',
       brand: 'New Balance',
@@ -384,6 +434,7 @@ const miniCardProduct = [
       oldPrice: 2100,
    },
    {
+      id: cardCounter++,
       category: 'top-pants',
       name: 'Шорти',
       brand: 'New Balance',
@@ -393,6 +444,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-pants',
    {
+      id: cardCounter++,
       category: 'popular-pants',
       name: 'Шорти',
       brand: 'KOTON',
@@ -401,6 +453,7 @@ const miniCardProduct = [
       oldPrice: 555,
    },
    {
+      id: cardCounter++,
       category: 'popular-pants',
       name: 'Шорти',
       brand: 'KOTON',
@@ -409,6 +462,7 @@ const miniCardProduct = [
       oldPrice: 555,
    },
    {
+      id: cardCounter++,
       category: 'popular-pants',
       name: 'Шорти',
       brand: 'KOTON',
@@ -417,6 +471,7 @@ const miniCardProduct = [
       oldPrice: 555,
    },
    {
+      id: cardCounter++,
       category: 'popular-pants',
       name: 'Шорти',
       brand: 'KOTON',
@@ -425,6 +480,7 @@ const miniCardProduct = [
       oldPrice: 555,
    },
    {
+      id: cardCounter++,
       category: 'popular-pants',
       name: 'Шорти',
       brand: 'KOTON',
@@ -433,6 +489,7 @@ const miniCardProduct = [
       oldPrice: 555,
    },
    {
+      id: cardCounter++,
       category: 'popular-pants',
       name: 'Шорти',
       brand: 'KOTON',
@@ -442,6 +499,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-dresses',
    {
+      id: cardCounter++,
       category: 'new-dresses',
       name: 'Сукня',
       brand: 'Stories',
@@ -450,6 +508,7 @@ const miniCardProduct = [
       oldPrice: 1800,
    },
    {
+      id: cardCounter++,
       category: 'new-dresses',
       name: 'Сукня',
       brand: 'Stories',
@@ -458,6 +517,7 @@ const miniCardProduct = [
       oldPrice: 1800,
    },
    {
+      id: cardCounter++,
       category: 'new-dresses',
       name: 'Сукня',
       brand: 'Stories',
@@ -466,6 +526,7 @@ const miniCardProduct = [
       oldPrice: 1800,
    },
    {
+      id: cardCounter++,
       category: 'new-dresses',
       name: 'Сукня',
       brand: 'Stories',
@@ -474,6 +535,7 @@ const miniCardProduct = [
       oldPrice: 1800,
    },
    {
+      id: cardCounter++,
       category: 'new-dresses',
       name: 'Сукня',
       brand: 'Stories',
@@ -482,6 +544,7 @@ const miniCardProduct = [
       oldPrice: 1800,
    },
    {
+      id: cardCounter++,
       category: 'new-dresses',
       name: 'Сукня',
       brand: 'Stories',
@@ -491,6 +554,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-dresses',
    {
+      id: cardCounter++,
       category: 'top-dresses',
       name: 'Сукня',
       brand: 'Other',
@@ -499,6 +563,7 @@ const miniCardProduct = [
       oldPrice: 2400,
    },
    {
+      id: cardCounter++,
       category: 'top-dresses',
       name: 'Сукня',
       brand: 'Other',
@@ -507,6 +572,7 @@ const miniCardProduct = [
       oldPrice: 2400,
    },
    {
+      id: cardCounter++,
       category: 'top-dresses',
       name: 'Сукня',
       brand: 'Other',
@@ -515,6 +581,7 @@ const miniCardProduct = [
       oldPrice: 2400,
    },
    {
+      id: cardCounter++,
       category: 'top-dresses',
       name: 'Сукня',
       brand: 'Other',
@@ -523,6 +590,7 @@ const miniCardProduct = [
       oldPrice: 2400,
    },
    {
+      id: cardCounter++,
       category: 'top-dresses',
       name: 'Сукня',
       brand: 'Other',
@@ -531,6 +599,7 @@ const miniCardProduct = [
       oldPrice: 2400,
    },
    {
+      id: cardCounter++,
       category: 'top-dresses',
       name: 'Сукня',
       brand: 'Other',
@@ -540,6 +609,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-dresses',
    {
+      id: cardCounter++,
       category: 'popular-dresses',
       name: 'Шорти',
       brand: 'Sec',
@@ -548,6 +618,7 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
       category: 'popular-dresses',
       name: 'Шорти',
       brand: 'Sec',
@@ -556,6 +627,8 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
+      id: cardCounter++,
       category: 'popular-dresses',
       name: 'Шорти',
       brand: 'Sec',
@@ -564,6 +637,8 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
+      id: cardCounter++,
       category: 'popular-dresses',
       name: 'Шорти',
       brand: 'Sec',
@@ -572,6 +647,8 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
+      id: cardCounter++,
       category: 'popular-dresses',
       name: 'Шорти',
       brand: 'Sec',
@@ -580,6 +657,8 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
+      id: cardCounter++,
       category: 'popular-dresses',
       name: 'Шорти',
       brand: 'Sec',
@@ -589,6 +668,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-glasses',
    {
+      id: cardCounter++,
       category: 'new-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -597,6 +677,7 @@ const miniCardProduct = [
       oldPrice: 689,
    },
    {
+      id: cardCounter++,
       category: 'new-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -605,6 +686,7 @@ const miniCardProduct = [
       oldPrice: 689,
    },
    {
+      id: cardCounter++,
       category: 'new-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -613,6 +695,7 @@ const miniCardProduct = [
       oldPrice: 689,
    },
    {
+      id: cardCounter++,
       category: 'new-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -621,6 +704,7 @@ const miniCardProduct = [
       oldPrice: 689,
    },
    {
+      id: cardCounter++,
       category: 'new-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -629,6 +713,7 @@ const miniCardProduct = [
       oldPrice: 689,
    },
    {
+      id: cardCounter++,
       category: 'new-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -638,6 +723,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-glasses',
    {
+      id: cardCounter++,
       category: 'top-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Luoweite',
@@ -646,6 +732,7 @@ const miniCardProduct = [
       oldPrice: 1222,
    },
    {
+      id: cardCounter++,
       category: 'top-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Luoweite',
@@ -654,6 +741,7 @@ const miniCardProduct = [
       oldPrice: 1222,
    },
    {
+      id: cardCounter++,
       category: 'top-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Luoweite',
@@ -662,6 +750,7 @@ const miniCardProduct = [
       oldPrice: 1222,
    },
    {
+      id: cardCounter++,
       category: 'top-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Luoweite',
@@ -670,6 +759,7 @@ const miniCardProduct = [
       oldPrice: 1222,
    },
    {
+      id: cardCounter++,
       category: 'top-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Luoweite',
@@ -678,6 +768,7 @@ const miniCardProduct = [
       oldPrice: 1222,
    },
    {
+      id: cardCounter++,
       category: 'top-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Luoweite',
@@ -687,6 +778,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-glasses',
    {
+      id: cardCounter++,
       category: 'popular-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -695,6 +787,7 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
       category: 'popular-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -703,6 +796,7 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
       category: 'popular-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -711,6 +805,7 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
       category: 'popular-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -719,6 +814,7 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
       category: 'popular-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -727,6 +823,7 @@ const miniCardProduct = [
       oldPrice: 2220,
    },
    {
+      id: cardCounter++,
       category: 'popular-glasses',
       name: 'Сонцезахисні окуляри',
       brand: 'Gabriela Marioni',
@@ -736,6 +833,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-stuff',
    {
+      id: cardCounter++,
       category: 'new-stuff',
       name: 'Сорочка',
       brand: 'KOTON',
@@ -744,6 +842,7 @@ const miniCardProduct = [
       oldPrice: 399,
    },
    {
+      id: cardCounter++,
       category: 'new-stuff',
       name: 'Сорочка',
       brand: 'KOTON',
@@ -752,6 +851,7 @@ const miniCardProduct = [
       oldPrice: 399,
    },
    {
+      id: cardCounter++,
       category: 'new-stuff',
       name: 'Сорочка',
       brand: 'KOTON',
@@ -760,6 +860,7 @@ const miniCardProduct = [
       oldPrice: 399,
    },
    {
+      id: cardCounter++,
       category: 'new-stuff',
       name: 'Сорочка',
       brand: 'KOTON',
@@ -768,6 +869,7 @@ const miniCardProduct = [
       oldPrice: 399,
    },
    {
+      id: cardCounter++,
       category: 'new-stuff',
       name: 'Сорочка',
       brand: 'KOTON',
@@ -776,6 +878,7 @@ const miniCardProduct = [
       oldPrice: 399,
    },
    {
+      id: cardCounter++,
       category: 'new-stuff',
       name: 'Сорочка',
       brand: 'KOTON',
@@ -785,6 +888,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-stuff',
    {
+      id: cardCounter++,
       category: 'top-stuff',
       name: 'Сукня',
       brand: 'Sasha',
@@ -793,6 +897,7 @@ const miniCardProduct = [
       oldPrice: 400,
    },
    {
+      id: cardCounter++,
       category: 'top-stuff',
       name: 'Сукня',
       brand: 'Sasha',
@@ -801,6 +906,7 @@ const miniCardProduct = [
       oldPrice: 400,
    },
    {
+      id: cardCounter++,
       category: 'top-stuff',
       name: 'Сукня',
       brand: 'Sasha',
@@ -809,6 +915,7 @@ const miniCardProduct = [
       oldPrice: 400,
    },
    {
+      id: cardCounter++,
       category: 'top-stuff',
       name: 'Сукня',
       brand: 'Sasha',
@@ -817,6 +924,7 @@ const miniCardProduct = [
       oldPrice: 400,
    },
    {
+      id: cardCounter++,
       category: 'top-stuff',
       name: 'Сукня',
       brand: 'Sasha',
@@ -825,6 +933,7 @@ const miniCardProduct = [
       oldPrice: 400,
    },
    {
+      id: cardCounter++,
       category: 'top-stuff',
       name: 'Сукня',
       brand: 'Sasha',
@@ -834,6 +943,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-stuff',
    {
+      id: cardCounter++,
       category: 'popular-stuff',
       name: 'Набір косметики',
       brand: 'Kimi',
@@ -842,6 +952,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-stuff',
       name: 'Набір косметики',
       brand: 'Kimi',
@@ -850,6 +961,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-stuff',
       name: 'Набір косметики',
       brand: 'Kimi',
@@ -858,6 +970,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-stuff',
       name: 'Набір косметики',
       brand: 'Kimi',
@@ -866,6 +979,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-stuff',
       name: 'Набір косметики',
       brand: 'Kimi',
@@ -874,6 +988,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-stuff',
       name: 'Набір косметики',
       brand: 'Kimi',
@@ -883,6 +998,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-backpacks'
    {
+      id: cardCounter++,
       category: 'new-backpacks',
       name: 'Рюкзак',
       brand: 'Fashion',
@@ -891,6 +1007,7 @@ const miniCardProduct = [
       oldPrice: 1500,
    },
    {
+      id: cardCounter++,
       category: 'new-backpacks',
       name: 'Рюкзак',
       brand: 'Fashion',
@@ -899,6 +1016,7 @@ const miniCardProduct = [
       oldPrice: 1500,
    },
    {
+      id: cardCounter++,
       category: 'new-backpacks',
       name: 'Рюкзак',
       brand: 'Fashion',
@@ -907,6 +1025,7 @@ const miniCardProduct = [
       oldPrice: 1500,
    },
    {
+      id: cardCounter++,
       category: 'new-backpacks',
       name: 'Рюкзак',
       brand: 'Fashion',
@@ -915,6 +1034,7 @@ const miniCardProduct = [
       oldPrice: 1500,
    },
    {
+      id: cardCounter++,
       category: 'new-backpacks',
       name: 'Рюкзак',
       brand: 'Fashion',
@@ -923,6 +1043,7 @@ const miniCardProduct = [
       oldPrice: 1500,
    },
    {
+      id: cardCounter++,
       category: 'new-backpacks',
       name: 'Рюкзак',
       brand: 'Fashion',
@@ -932,6 +1053,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-backpacks'
    {
+      id: cardCounter++,
       category: 'top-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -940,6 +1062,7 @@ const miniCardProduct = [
       oldPrice: 888,
    },
    {
+      id: cardCounter++,
       category: 'top-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -948,6 +1071,7 @@ const miniCardProduct = [
       oldPrice: 888,
    },
    {
+      id: cardCounter++,
       category: 'top-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -956,6 +1080,7 @@ const miniCardProduct = [
       oldPrice: 888,
    },
    {
+      id: cardCounter++,
       category: 'top-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -964,6 +1089,7 @@ const miniCardProduct = [
       oldPrice: 888,
    },
    {
+      id: cardCounter++,
       category: 'top-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -972,6 +1098,7 @@ const miniCardProduct = [
       oldPrice: 888,
    },
    {
+      id: cardCounter++,
       category: 'top-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -981,6 +1108,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-backpacks'
    {
+      id: cardCounter++,
       category: 'popular-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -989,6 +1117,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'popular-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -997,6 +1126,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'popular-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -1005,6 +1135,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'popular-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -1013,6 +1144,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'popular-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -1021,6 +1153,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'popular-backpacks',
       name: 'Рюкзак',
       brand: 'No Brand',
@@ -1030,6 +1163,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-concilaria'
    {
+      id: cardCounter++,
       category: 'new-concilaria',
       name: 'Набор тетрадей',
       brand: 'Lidl',
@@ -1038,6 +1172,7 @@ const miniCardProduct = [
       oldPrice: 65,
    },
    {
+      id: cardCounter++,
       category: 'new-concilaria',
       name: 'Набор тетрадей',
       brand: 'Lidl',
@@ -1046,6 +1181,7 @@ const miniCardProduct = [
       oldPrice: 65,
    },
    {
+      id: cardCounter++,
       category: 'new-concilaria',
       name: 'Набор тетрадей',
       brand: 'Lidl',
@@ -1054,6 +1190,7 @@ const miniCardProduct = [
       oldPrice: 65,
    },
    {
+      id: cardCounter++,
       category: 'new-concilaria',
       name: 'Набор тетрадей',
       brand: 'Lidl',
@@ -1062,6 +1199,7 @@ const miniCardProduct = [
       oldPrice: 65,
    },
    {
+      id: cardCounter++,
       category: 'new-concilaria',
       name: 'Набор тетрадей',
       brand: 'Lidl',
@@ -1070,6 +1208,7 @@ const miniCardProduct = [
       oldPrice: 65,
    },
    {
+      id: cardCounter++,
       category: 'new-concilaria',
       name: 'Набор тетрадей',
       brand: 'Lidl',
@@ -1079,6 +1218,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-concilaria'
    {
+      id: cardCounter++,
       category: 'top-concilaria',
       name: 'Пенал',
       brand: 'No Brand',
@@ -1087,6 +1227,7 @@ const miniCardProduct = [
       oldPrice: 151,
    },
    {
+      id: cardCounter++,
       category: 'top-concilaria',
       name: 'Пенал',
       brand: 'No Brand',
@@ -1095,6 +1236,7 @@ const miniCardProduct = [
       oldPrice: 151,
    },
    {
+      id: cardCounter++,
       category: 'top-concilaria',
       name: 'Пенал',
       brand: 'No Brand',
@@ -1103,6 +1245,7 @@ const miniCardProduct = [
       oldPrice: 151,
    },
    {
+      id: cardCounter++,
       category: 'top-concilaria',
       name: 'Пенал',
       brand: 'No Brand',
@@ -1111,6 +1254,7 @@ const miniCardProduct = [
       oldPrice: 151,
    },
    {
+      id: cardCounter++,
       category: 'top-concilaria',
       name: 'Пенал',
       brand: 'No Brand',
@@ -1119,6 +1263,7 @@ const miniCardProduct = [
       oldPrice: 151,
    },
    {
+      id: cardCounter++,
       category: 'top-concilaria',
       name: 'Пенал',
       brand: 'No Brand',
@@ -1128,6 +1273,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-concilaria'
    {
+      id: cardCounter++,
       category: 'popular-concilaria',
       name: 'Точилка',
       brand: 'Sanrio',
@@ -1136,6 +1282,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-concilaria',
       name: 'Точилка',
       brand: 'Sanrio',
@@ -1144,6 +1291,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-concilaria',
       name: 'Точилка',
       brand: 'Sanrio',
@@ -1152,6 +1300,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-concilaria',
       name: 'Точилка',
       brand: 'Sanrio',
@@ -1160,6 +1309,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-concilaria',
       name: 'Точилка',
       brand: 'Sanrio',
@@ -1168,6 +1318,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-concilaria',
       name: 'Точилка',
       brand: 'Sanrio',
@@ -1177,6 +1328,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-sports'
    {
+      id: cardCounter++,
       category: 'new-sports',
       name: 'Гиря спортивная',
       brand: 'Springos',
@@ -1185,6 +1337,7 @@ const miniCardProduct = [
       oldPrice: 800,
    },
    {
+      id: cardCounter++,
       category: 'new-sports',
       name: 'Гиря спортивная',
       brand: 'Springos',
@@ -1193,6 +1346,7 @@ const miniCardProduct = [
       oldPrice: 800,
    },
    {
+      id: cardCounter++,
       category: 'new-sports',
       name: 'Гиря спортивная',
       brand: 'Springos',
@@ -1201,6 +1355,7 @@ const miniCardProduct = [
       oldPrice: 800,
    },
    {
+      id: cardCounter++,
       category: 'new-sports',
       name: 'Гиря спортивная',
       brand: 'Springos',
@@ -1209,6 +1364,7 @@ const miniCardProduct = [
       oldPrice: 800,
    },
    {
+      id: cardCounter++,
       category: 'new-sports',
       name: 'Гиря спортивная',
       brand: 'Springos',
@@ -1217,6 +1373,7 @@ const miniCardProduct = [
       oldPrice: 800,
    },
    {
+      id: cardCounter++,
       category: 'new-sports',
       name: 'Гиря спортивная',
       brand: 'Springos',
@@ -1226,6 +1383,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-sports'
    {
+      id: cardCounter++,
       category: 'top-sports',
       name: 'Набор гантелей',
       brand: 'Springos',
@@ -1234,6 +1392,7 @@ const miniCardProduct = [
       oldPrice: 780,
    },
    {
+      id: cardCounter++,
       category: 'top-sports',
       name: 'Набор гантелей',
       brand: 'Springos',
@@ -1242,6 +1401,7 @@ const miniCardProduct = [
       oldPrice: 780,
    },
    {
+      id: cardCounter++,
       category: 'top-sports',
       name: 'Набор гантелей',
       brand: 'Springos',
@@ -1250,6 +1410,7 @@ const miniCardProduct = [
       oldPrice: 780,
    },
    {
+      id: cardCounter++,
       category: 'top-sports',
       name: 'Набор гантелей',
       brand: 'Springos',
@@ -1258,6 +1419,7 @@ const miniCardProduct = [
       oldPrice: 780,
    },
    {
+      id: cardCounter++,
       category: 'top-sports',
       name: 'Набор гантелей',
       brand: 'Springos',
@@ -1266,6 +1428,7 @@ const miniCardProduct = [
       oldPrice: 780,
    },
    {
+      id: cardCounter++,
       category: 'top-sports',
       name: 'Набор гантелей',
       brand: 'Springos',
@@ -1275,6 +1438,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-sports'
    {
+      id: cardCounter++,
       category: 'popular-sports',
       name: 'Гантели сборные',
       brand: 'Rock Pro Newt',
@@ -1283,6 +1447,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-sports',
       name: 'Гантели сборные',
       brand: 'Rock Pro Newt',
@@ -1291,6 +1456,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-sports',
       name: 'Гантели сборные',
       brand: 'Rock Pro Newt',
@@ -1299,6 +1465,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-sports',
       name: 'Гантели сборные',
       brand: 'Rock Pro Newt',
@@ -1307,6 +1474,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-sports',
       name: 'Гантели сборные',
       brand: 'Rock Pro Newt',
@@ -1315,6 +1483,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'popular-sports',
       name: 'Гантели сборные',
       brand: 'Rock Pro Newt',
@@ -1324,6 +1493,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-perfume'
    {
+      id: cardCounter++,
       category: 'new-perfume',
       name: 'Духи Сирень',
       brand: 'L erbolario',
@@ -1332,6 +1502,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'new-perfume',
       name: 'Духи Сирень',
       brand: 'L erbolario',
@@ -1340,6 +1511,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'new-perfume',
       name: 'Духи Сирень',
       brand: 'L erbolario',
@@ -1348,6 +1520,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'new-perfume',
       name: 'Духи Сирень',
       brand: 'L erbolario',
@@ -1356,6 +1529,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'new-perfume',
       name: 'Духи Сирень',
       brand: 'L erbolario',
@@ -1364,6 +1538,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'new-perfume',
       name: 'Духи Сирень',
       brand: 'L erbolario',
@@ -1373,6 +1548,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-perfume'
    {
+      id: cardCounter++,
       category: 'top-perfume',
       name: 'Духи',
       brand: 'Velvet Sam',
@@ -1381,6 +1557,7 @@ const miniCardProduct = [
       oldPrice: 2999,
    },
    {
+      id: cardCounter++,
       category: 'top-perfume',
       name: 'Духи',
       brand: 'Velvet Sam',
@@ -1389,6 +1566,7 @@ const miniCardProduct = [
       oldPrice: 2999,
    },
    {
+      id: cardCounter++,
       category: 'top-perfume',
       name: 'Духи',
       brand: 'Velvet Sam',
@@ -1397,6 +1575,7 @@ const miniCardProduct = [
       oldPrice: 2999,
    },
    {
+      id: cardCounter++,
       category: 'top-perfume',
       name: 'Духи',
       brand: 'Velvet Sam',
@@ -1405,6 +1584,7 @@ const miniCardProduct = [
       oldPrice: 2999,
    },
    {
+      id: cardCounter++,
       category: 'top-perfume',
       name: 'Духи',
       brand: 'Velvet Sam',
@@ -1413,6 +1593,7 @@ const miniCardProduct = [
       oldPrice: 2999,
    },
    {
+      id: cardCounter++,
       category: 'top-perfume',
       name: 'Духи',
       brand: 'Velvet Sam',
@@ -1422,6 +1603,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-perfume'
    {
+      id: cardCounter++,
       category: 'popular-perfume',
       name: 'Духи',
       brand: 'Victoria s Secret',
@@ -1430,6 +1612,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'popular-perfume',
       name: 'Духи',
       brand: 'Victoria s Secret',
@@ -1438,6 +1621,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'popular-perfume',
       name: 'Духи',
       brand: 'Victoria s Secret',
@@ -1446,6 +1630,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'popular-perfume',
       name: 'Духи',
       brand: 'Victoria s Secret',
@@ -1454,6 +1639,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'popular-perfume',
       name: 'Духи',
       brand: 'Victoria s Secret',
@@ -1462,6 +1648,7 @@ const miniCardProduct = [
       oldPrice: 1300,
    },
    {
+      id: cardCounter++,
       category: 'popular-perfume',
       name: 'Духи',
       brand: 'Victoria s Secret',
@@ -1471,6 +1658,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-car'
    {
+      id: cardCounter++,
       category: 'new-car',
       name: 'Устройство "Свободные руки"',
       brand: 'Silver Crest',
@@ -1479,6 +1667,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'new-car',
       name: 'Устройство "Свободные руки"',
       brand: 'Silver Crest',
@@ -1487,6 +1676,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'new-car',
       name: 'Устройство "Свободные руки"',
       brand: 'Silver Crest',
@@ -1495,6 +1685,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'new-car',
       name: 'Устройство "Свободные руки"',
       brand: 'Silver Crest',
@@ -1503,6 +1694,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'new-car',
       name: 'Устройство "Свободные руки"',
       brand: 'Silver Crest',
@@ -1511,6 +1703,7 @@ const miniCardProduct = [
       oldPrice: 1200,
    },
    {
+      id: cardCounter++,
       category: 'new-car',
       name: 'Устройство "Свободные руки"',
       brand: 'Silver Crest',
@@ -1520,6 +1713,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-car'
    {
+      id: cardCounter++,
       category: 'top-car',
       name: 'Авторегистратор Зеркало',
       brand: 'No Brand',
@@ -1528,6 +1722,7 @@ const miniCardProduct = [
       oldPrice: 8777,
    },
    {
+      id: cardCounter++,
       category: 'top-car',
       name: 'Авторегистратор Зеркало',
       brand: 'No Brand',
@@ -1536,6 +1731,7 @@ const miniCardProduct = [
       oldPrice: 8777,
    },
    {
+      id: cardCounter++,
       category: 'top-car',
       name: 'Авторегистратор Зеркало',
       brand: 'No Brand',
@@ -1544,6 +1740,7 @@ const miniCardProduct = [
       oldPrice: 8777,
    },
    {
+      id: cardCounter++,
       category: 'top-car',
       name: 'Авторегистратор Зеркало',
       brand: 'No Brand',
@@ -1552,6 +1749,7 @@ const miniCardProduct = [
       oldPrice: 8777,
    },
    {
+      id: cardCounter++,
       category: 'top-car',
       name: 'Авторегистратор Зеркало',
       brand: 'No Brand',
@@ -1560,6 +1758,7 @@ const miniCardProduct = [
       oldPrice: 8777,
    },
    {
+      id: cardCounter++,
       category: 'top-car',
       name: 'Авторегистратор Зеркало',
       brand: 'No Brand',
@@ -1569,6 +1768,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-car'
    {
+      id: cardCounter++,
       category: 'popular-car',
       name: 'Крутящиеся аромакольца',
       brand: 'Aroma',
@@ -1577,6 +1777,7 @@ const miniCardProduct = [
       oldPrice: 908,
    },
    {
+      id: cardCounter++,
       category: 'popular-car',
       name: 'Крутящиеся аромакольца',
       brand: 'Aroma',
@@ -1585,6 +1786,7 @@ const miniCardProduct = [
       oldPrice: 908,
    },
    {
+      id: cardCounter++,
       category: 'popular-car',
       name: 'Крутящиеся аромакольца',
       brand: 'Aroma',
@@ -1593,6 +1795,7 @@ const miniCardProduct = [
       oldPrice: 908,
    },
    {
+      id: cardCounter++,
       category: 'popular-car',
       name: 'Крутящиеся аромакольца',
       brand: 'Aroma',
@@ -1601,6 +1804,7 @@ const miniCardProduct = [
       oldPrice: 908,
    },
    {
+      id: cardCounter++,
       category: 'popular-car',
       name: 'Крутящиеся аромакольца',
       brand: 'Aroma',
@@ -1609,6 +1813,7 @@ const miniCardProduct = [
       oldPrice: 908,
    },
    {
+      id: cardCounter++,
       category: 'popular-car',
       name: 'Крутящиеся аромакольца',
       brand: 'Aroma',
@@ -1618,6 +1823,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-cosmetics'
    {
+      id: cardCounter++,
       category: 'new-cosmetics',
       name: 'Гель лак',
       brand: 'BABY Cold ',
@@ -1626,6 +1832,7 @@ const miniCardProduct = [
       oldPrice: 99,
    },
    {
+      id: cardCounter++,
       category: 'new-cosmetics',
       name: 'Гель лак',
       brand: 'BABY Cold ',
@@ -1634,6 +1841,7 @@ const miniCardProduct = [
       oldPrice: 99,
    },
    {
+      id: cardCounter++,
       category: 'new-cosmetics',
       name: 'Гель лак',
       brand: 'BABY Cold ',
@@ -1642,6 +1850,7 @@ const miniCardProduct = [
       oldPrice: 99,
    },
    {
+      id: cardCounter++,
       category: 'new-cosmetics',
       name: 'Гель лак',
       brand: 'BABY Cold ',
@@ -1650,6 +1859,7 @@ const miniCardProduct = [
       oldPrice: 99,
    },
    {
+      id: cardCounter++,
       category: 'new-cosmetics',
       name: 'Гель лак',
       brand: 'BABY Cold ',
@@ -1658,6 +1868,7 @@ const miniCardProduct = [
       oldPrice: 99,
    },
    {
+      id: cardCounter++,
       category: 'new-cosmetics',
       name: 'Гель лак',
       brand: 'BABY Cold ',
@@ -1667,6 +1878,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-cosmetics'
    {
+      id: cardCounter++,
       category: 'top-cosmetics',
       name: 'Портативный фрезер',
       brand: 'NAIL POLISHER',
@@ -1675,6 +1887,7 @@ const miniCardProduct = [
       oldPrice: 299,
    },
    {
+      id: cardCounter++,
       category: 'top-cosmetics',
       name: 'Портативный фрезер',
       brand: 'NAIL POLISHER',
@@ -1683,6 +1896,7 @@ const miniCardProduct = [
       oldPrice: 299,
    },
    {
+      id: cardCounter++,
       category: 'top-cosmetics',
       name: 'Портативный фрезер',
       brand: 'NAIL POLISHER',
@@ -1691,6 +1905,7 @@ const miniCardProduct = [
       oldPrice: 299,
    },
    {
+      id: cardCounter++,
       category: 'top-cosmetics',
       name: 'Портативный фрезер',
       brand: 'NAIL POLISHER',
@@ -1699,6 +1914,7 @@ const miniCardProduct = [
       oldPrice: 299,
    },
    {
+      id: cardCounter++,
       category: 'top-cosmetics',
       name: 'Портативный фрезер',
       brand: 'NAIL POLISHER',
@@ -1707,6 +1923,7 @@ const miniCardProduct = [
       oldPrice: 299,
    },
    {
+      id: cardCounter++,
       category: 'top-cosmetics',
       name: 'Портативный фрезер',
       brand: 'NAIL POLISHER',
@@ -1716,6 +1933,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-cosmetics'
    {
+      id: cardCounter++,
       category: 'popular-cosmetics',
       name: 'Набор для ухода ',
       brand: 'Vitа С Perfect',
@@ -1724,6 +1942,7 @@ const miniCardProduct = [
       oldPrice: 5444,
    },
    {
+      id: cardCounter++,
       category: 'popular-cosmetics',
       name: 'Набор для ухода ',
       brand: 'Vitа С Perfect',
@@ -1732,6 +1951,7 @@ const miniCardProduct = [
       oldPrice: 5444,
    },
    {
+      id: cardCounter++,
       category: 'popular-cosmetics',
       name: 'Набор для ухода ',
       brand: 'Vitа С Perfect',
@@ -1740,6 +1960,7 @@ const miniCardProduct = [
       oldPrice: 5444,
    },
    {
+      id: cardCounter++,
       category: 'popular-cosmetics',
       name: 'Набор для ухода ',
       brand: 'Vitа С Perfect',
@@ -1748,6 +1969,7 @@ const miniCardProduct = [
       oldPrice: 5444,
    },
    {
+      id: cardCounter++,
       category: 'popular-cosmetics',
       name: 'Набор для ухода ',
       brand: 'Vitа С Perfect',
@@ -1756,6 +1978,7 @@ const miniCardProduct = [
       oldPrice: 5444,
    },
    {
+      id: cardCounter++,
       category: 'popular-cosmetics',
       name: 'Набор для ухода ',
       brand: 'Vitа С Perfect',
@@ -1765,6 +1988,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'new-pets'
    {
+      id: cardCounter++,
       category: 'new-pets',
       name: 'Ошейник для собак',
       brand: 'WAUDOG',
@@ -1773,6 +1997,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'new-pets',
       name: 'Ошейник для собак',
       brand: 'WAUDOG',
@@ -1781,6 +2006,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'new-pets',
       name: 'Ошейник для собак',
       brand: 'WAUDOG',
@@ -1789,6 +2015,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'new-pets',
       name: 'Ошейник для собак',
       brand: 'WAUDOG',
@@ -1797,6 +2024,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'new-pets',
       name: 'Ошейник для собак',
       brand: 'WAUDOG',
@@ -1805,6 +2033,7 @@ const miniCardProduct = [
       oldPrice: 451,
    },
    {
+      id: cardCounter++,
       category: 'new-pets',
       name: 'Ошейник для собак',
       brand: 'WAUDOG',
@@ -1814,6 +2043,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'top-pets'
    {
+      id: cardCounter++,
       category: 'top-pets',
       name: 'Ошейник от блох',
       brand: 'Stop',
@@ -1822,6 +2052,7 @@ const miniCardProduct = [
       oldPrice: 88,
    },
    {
+      id: cardCounter++,
       category: 'top-pets',
       name: 'Ошейник от блох',
       brand: 'Stop',
@@ -1830,6 +2061,7 @@ const miniCardProduct = [
       oldPrice: 88,
    },
    {
+      id: cardCounter++,
       category: 'top-pets',
       name: 'Ошейник от блох',
       brand: 'Stop',
@@ -1838,6 +2070,7 @@ const miniCardProduct = [
       oldPrice: 88,
    },
    {
+      id: cardCounter++,
       category: 'top-pets',
       name: 'Ошейник от блох',
       brand: 'Stop',
@@ -1846,6 +2079,7 @@ const miniCardProduct = [
       oldPrice: 88,
    },
    {
+      id: cardCounter++,
       category: 'top-pets',
       name: 'Ошейник от блох',
       brand: 'Stop',
@@ -1854,6 +2088,7 @@ const miniCardProduct = [
       oldPrice: 88,
    },
    {
+      id: cardCounter++,
       category: 'top-pets',
       name: 'Ошейник от блох',
       brand: 'Stop',
@@ -1863,6 +2098,7 @@ const miniCardProduct = [
    },
    // ==============    category: 'popular-pets'
    {
+      id: cardCounter++,
       category: 'popular-pets',
       name: 'Ошейник для дрессировки',
       brand: 'Lemfo',
@@ -1871,6 +2107,7 @@ const miniCardProduct = [
       oldPrice: 2000,
    },
    {
+      id: cardCounter++,
       category: 'popular-pets',
       name: 'Ошейник для дрессировки',
       brand: 'Lemfo',
@@ -1879,6 +2116,7 @@ const miniCardProduct = [
       oldPrice: 2000,
    },
    {
+      id: cardCounter++,
       category: 'popular-pets',
       name: 'Ошейник для дрессировки',
       brand: 'Lemfo',
@@ -1887,6 +2125,7 @@ const miniCardProduct = [
       oldPrice: 2000,
    },
    {
+      id: cardCounter++,
       category: 'popular-pets',
       name: 'Ошейник для дрессировки',
       brand: 'Lemfo',
@@ -1895,6 +2134,7 @@ const miniCardProduct = [
       oldPrice: 2000,
    },
    {
+      id: cardCounter++,
       category: 'popular-pets',
       name: 'Ошейник для дрессировки',
       brand: 'Lemfo',
@@ -1903,6 +2143,7 @@ const miniCardProduct = [
       oldPrice: 2000,
    },
    {
+      id: cardCounter++,
       category: 'popular-pets',
       name: 'Ошейник для дрессировки',
       brand: 'Lemfo',
@@ -1932,7 +2173,7 @@ dataMiniCard.forEach((item)=>{
       if(datasetSubject ===  miniCardProductСategory){
         
          //В шаблоную строку подставляем данные с масива
-         const card = `<div class="product-card__mini">
+         const card = `<div class="product-card__mini" data-id="${item.id}">
                         <img class="card__img" src="./img/miniCard/${item.img}"  alt="">
                         <div class="card__description">
                            <span class="card__description-name">${item.name}</span>
@@ -1943,8 +2184,13 @@ dataMiniCard.forEach((item)=>{
                            </div>
                         </div>
                            <div class="card__buttons">
+                              <div class="items">
+                                 <div class="items__control" data-action="minus">-</div>
+                                 <div class="items__current" data-counter="">1</div>
+                                 <div class="items__control" data-action="plus">+</div>
+                              </div>
                               <button class="btn-like"></button>
-                              <button class="btn-cart" ></button>
+                              <button class="btn-cart" data-cart ></button>
                            </div>
                      </div>`;
 

@@ -1,0 +1,40 @@
+.items{
+   border-radius: 6px;
+   background: #d1d1d1;
+}
+
+.items__control{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 22px;
+   height: 20px;
+   padding: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s ease-in;
+
+   &:nth-child(1){
+      border-radius: 6px 6px 0 0;
+   }
+
+   &:last-child {
+      border-radius: 0 0 6px 6px;
+   }
+
+   &:hover{
+      background: #0ABF53;
+   }
+}
+
+
+
+.items__current{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 5px;
+   width: 22px;
+   height: 20px;
+}

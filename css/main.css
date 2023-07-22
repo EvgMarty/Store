@@ -110,6 +110,53 @@ legend {
   display: block;
 }
 
+#order-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 10px 0;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-control {
+  color: #00112C;
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  width: 100%;
+  box-shadow: rgba(19, 19, 19, 0.06) 0px 4px 4px;
+  border-radius: 6px;
+}
+.form-control:focus {
+  box-shadow: #0abf53 0px 1px 4px;
+}
+
+.btn {
+  position: relative;
+  border: solid 1px #0abf53;
+  color: #0abf53;
+  border-radius: 7px;
+  margin-top: 15px;
+  width: 200px;
+  padding: 5px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 15px;
+  position: relative;
+  transition: background-color 0.2s ease-in;
+}
+.btn:active {
+  top: 1px;
+}
+.btn:active {
+  top: 1px;
+}
+
 .search-form {
   display: flex;
   flex-direction: row;
@@ -283,8 +330,8 @@ legend {
 .btn-like {
   position: relative;
   padding: 2px;
-  width: 25px;
-  height: 22px;
+  width: 20px;
+  height: 18px;
   background-image: url(../img/btn/like-.png);
   background-size: cover;
 }
@@ -301,8 +348,8 @@ legend {
 .btn-cart {
   position: relative;
   padding: 2px;
-  width: 33px;
-  height: 33px;
+  width: 25px;
+  height: 22px;
   background-image: url(../img/btn/btn-cart-.png);
   background-size: cover;
 }
@@ -314,6 +361,42 @@ legend {
 }
 .btn-cart.btn-cart--active {
   background-image: url(../img/btn/btn-cart+.png);
+}
+
+.items {
+  border-radius: 6px;
+  background: #d1d1d1;
+}
+
+.items__control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 22px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+.items__control:nth-child(1) {
+  border-radius: 6px 6px 0 0;
+}
+.items__control:last-child {
+  border-radius: 0 0 6px 6px;
+}
+.items__control:hover {
+  background: #0ABF53;
+}
+
+.items__current {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  width: 22px;
+  height: 20px;
 }
 
 .main__info {
@@ -428,9 +511,9 @@ legend {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  row-gap: 8px;
+  justify-content: center;
   border-radius: 6px;
+  row-gap: 3px;
   padding: 5px;
   transition: all 0.2s ease-in;
   position: absolute;
@@ -444,6 +527,7 @@ legend {
   width: 700px;
   left: -1000px;
   top: 0;
+  overflow: scroll;
   padding: 20px;
   background: #f5f5f5;
   transition: all 0.3s ease-in;
@@ -472,6 +556,42 @@ legend {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.basket-alert {
+  color: #383d41;
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem 0;
+  font-weight: 300;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.basket-alert.hidden {
+  display: none;
+}
+
+.cart-total {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 20px 0;
+}
+
+.small {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+.total-price {
+  color: #0abf53;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .liked {
@@ -676,6 +796,12 @@ h4 {
   h4 {
     font-size: 18px;
   }
+}
+
+.h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .nav {

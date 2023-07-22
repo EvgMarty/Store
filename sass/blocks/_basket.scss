@@ -4,6 +4,7 @@
    width: 700px;
    left: -1000px;
    top: 0;
+   overflow: scroll;
 
    padding: 20px;
 
@@ -34,3 +35,44 @@
       background-repeat: no-repeat;
    }
 }
+
+.basket-alert {
+   color: #383d41;
+   background-color: #e2e3e5;
+   border-color: #d6d8db;
+   position: relative;
+   padding: 0.75rem 1.25rem;
+   margin: 1rem 0;
+   font-weight: 300;
+   border: 1px solid transparent;
+   border-radius: 0.25rem;
+
+   &.hidden{
+      display: none;
+   }
+}
+
+
+.cart-total {
+   border-bottom: 1px solid rgba(0,0,0,.125);
+   padding: 20px 0;
+}
+
+
+
+.small {
+   font-size: 1rem;
+   font-weight: 300;
+}
+p+p{
+   margin-top: 1em;
+}
+
+.total-price{
+   color: #0abf53;
+   font-size: 1.2rem;
+   font-weight: 500;
+   line-height: 1.5;
+}
+
+

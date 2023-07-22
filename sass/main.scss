@@ -5,11 +5,15 @@
 
 //Component
 @import "./blocks/form";
+@import "./blocks/search-form.scss";
 @import "./blocks/modal";
 @import "./blocks/slider";
 @import "./blocks/button";
+
 @import "./blocks/btn-like";
 @import "./blocks/btn-cart";
+@import "./blocks/btn-plus-min";
+
 @import "./blocks/mainInfo";
 @import "./blocks/scrollbar";
 @import "./blocks/productCardMini";

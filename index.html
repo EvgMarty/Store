@@ -130,6 +130,36 @@
       <div class="basket" id="menu-cart">
          <div class="menu__close"></div>
          <div class="category__title category__title-active"><span>Basket</span></div>
+         <div data-cart-empty class="basket-alert " role="alert">
+            Empty basket
+          </div>
+           <!-- общ стоимость -->
+         <div class="cart-total">
+            <p data-cart-delivery>
+               <span class="h5">Delivery:</span>
+               <span class="h5 free" >500₴</span>
+               <br>
+               <span class="small">free of charge when ordering from 200₴</span>
+            </p>
+            <p>
+               <span class="h5">Total:</span>
+                  <span class="total-price">0</span>
+                  <span class="h5">₴</span>
+            </p>
+         </div>
+         <!-- контейнер для товара  -->
+         <div class="cart-wraper">
+         </div>
+         <!-- Оформление заказа -->
+         <div id="order-form" class="hidden">
+            <h5 class="h5">Place an order</h5>
+            <form>
+               <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Ваш номер телефона" required>
+               </div>
+               <button type="submit" class="btn">Order</button>
+            </form>
+         </div>
       </div>
 
       <!-- Понравивш -->
@@ -753,7 +783,9 @@
       </div>
    </section>
 
-   
+
+   <script src="./js/cartStatus.js"></script>
+   <script src="./js/calcCartPrice.js"></script>
    <script src="./js/miniCargRender.js"></script>
    <script src="./js/main.js"></script>
    <script src="./js/modal.js"></script>
@@ -762,5 +794,7 @@
    <script src="./js/slider.js"></script>
    <script src="./js/search.js"></script>
    <script src="./js/basketLike.js"></script>
+   <script src="./js/counter.js"></script>
+   <script src="./js/cart.js"></script>
 </body>
 </html>
